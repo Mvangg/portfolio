@@ -1,0 +1,39 @@
+.contact-box {
+    border: 2px solid none;
+    height: 300px;
+    width: 900px;
+    word-wrap: break-word;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.contacts-line {
+    color: black;
+    font-size: 50px;
+}
+
+.contact-container {
+    position: relative;
+    border: 2px solid none; 
+    height: 600px;
+    width: 1100px;
+    word-wrap: break-word;
+    margin: auto;
+    text-align: center;
+    margin-top: -5%;
+    border-bottom-right-radius: 100px;
+    border-top-right-radius: 100px;
+}
+
+.contact-word {
+    width: 350px;
+    text-align: center;
+    font-size: 50px;
+    margin-top: -35px;
+    color: black;
+    border: 1px solid none;
+    background-color: transparent;
+    margin-left: auto;
+    margin-right: auto;
+}

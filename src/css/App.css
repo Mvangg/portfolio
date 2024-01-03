@@ -1,0 +1,35 @@
+body {
+  /* background-color: grey; */
+  background-image: url('../assets/background.png');
+  margin: 0;
+  padding: 0;
+  /* font-family: 'Cormorant SC', serif; */
+  font-family: 'Grandiflora One', cursive;
+}
+
+.font-color {
+  color: black;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.center-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.space-between {
+  margin-left: 20px;
+}
+
+.yellow-word {
+  color: black;
+}
+

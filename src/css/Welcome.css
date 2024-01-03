@@ -1,0 +1,67 @@
+@keyframes scaleIn {
+  0% {
+    transform: scale(0);
+  }
+  50% {
+    transform: scale(3);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes textSlam {
+  0% {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.welcome-box {
+  border: 2px solid transparent;
+  height: 600px;
+  width: 1000px;
+  word-wrap: break-word;
+  text-align: center;
+  position: relative;
+  margin: 0 auto; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: -50px;
+  font-family: 'Homemade Apple', cursive;
+}
+
+.welcome-box p {
+  margin: 5px 0;
+  line-height: 1;
+}
+
+.welcome-box .first-line {
+  font-size: 40px;
+  color: gray;
+}
+
+.welcome-box .second-line {
+  font-size: 150px;
+  animation: scaleIn 3s ease;
+  color: black;
+}
+
+.welcome-box .third-line {
+  font-size: 45px;
+  color: gray;
+}
